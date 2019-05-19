@@ -29,8 +29,8 @@ headers:
   x-response-time: true
   via: true
 oauth:
-  allowNoAuthorization: false
-  allowInvalidAuthorization: false
+  allowNoAuthorization: true
+  allowInvalidAuthorization: true
   verify_api_key_url: 'https://katobyantalo-eval-test.apigee.net/edgemicro-auth/verifyApiKey'
 analytics:
   uri: >-
